@@ -1,5 +1,5 @@
-# Course Project: Part 3 & 4 - Project Repository and Presentation
-## Addressing the Public Health and Economic Impact of Wildfire Smoke in **Vancouver, WA**
+# Part 3 & 4 - Project Repository and Presentation
+## Tackling wildfire smoke in **Vancouver, WA**
 
 ## Project Goal
 ​The primary goal of this project is to assess and understand the public health and economic impacts of wildfire smoke in Vancouver, WA, particularly in the context of increasing wildfire frequency and intensity due to climate change.​ By employing a human-centered data science approach, the project aims to illuminate how wildfire smoke exposure affects the respiratory health of the community, while also examining its broader socio-economic implications, including unemployment, poverty, and premature death rates.
@@ -17,6 +17,7 @@ This project follows to the best practices for open scientific research as menti
 ## Licenses
 
 ### Datasets used
+For more information about these datasets, including licensing details, please refer to the accompanying [README.md](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/data/README.md).
 
 ### Repository
 The repository is licensed under the MIT License, and it permits users to freely use, modify, and distribute the code, provided that the original copyright notice and permission notice are included in all copies or substantial portions of the software.
@@ -42,7 +43,7 @@ This project includes a few snippets of code developed by Dr. David W. McDonald 
 
 ## Research Practices 
 
-The project was guided by human-centered principles that emphasized accountability, transparency, and the relevance of data to community needs. Following the best practices outlined in “The Practice of Reproducible Research,” I structured the repository with a clear hierarchical organization, creating distinct directories for [`code/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/src), [`data/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/data), [`documents/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/doc), and [`results/'](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/results). This setup enhanced accessibility and clarity, allowing users to easily navigate through scripts and identify dependencies clearly listed at the top of each script. I automated the workflow using Jupyter notebooks, facilitating seamless re-execution of analyses, while avoiding hard-coded paths to ensure adaptability across different environments. This README file provides explicit instructions on how to run the project and understand its objectives.
+The project was guided by human-centered principles that emphasized accountability, transparency, and the relevance of data to community needs. Following the best practices outlined in “The Practice of Reproducible Research,” I structured the repository with a clear hierarchical organization, creating distinct directories for [`code/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/src), [`data/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/data), [`documents/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/doc), and [`results/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/results). This setup enhanced accessibility and clarity, allowing users to easily navigate through scripts and identify dependencies clearly listed at the top of each script. I automated the workflow using Jupyter notebooks, facilitating seamless re-execution of analyses, while avoiding hard-coded paths to ensure adaptability across different environments. This README file provides explicit instructions on how to run the project and understand its objectives.
 
 Reflecting on the application of human-centered data science principles, I prioritized the lived experiences of community members affected by environmental factors. The analysis included an assessment of the direct health consequences of smoke exposure. I explicitly considered the geographic proximity of wildfires to these communities, which highlighted areas at greater risk, particularly in neighborhoods of Vancouver, WA. Such a focus ensured that my recommendations, including the establishment of clean air shelters, were relevant and actionable, directly addressing the specific needs of those impacted.
 
