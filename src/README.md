@@ -22,6 +22,6 @@ This notebook extends the analysis by acquiring additional data related to socio
 6.  [**step06_extension_plan_data_modeling.ipynb**](../src/step06_extension_plan_data_modeling.ipynb)
 This notebook builds on the extended data acquired in the previous step. It involves modeling the relationships between wildfire smoke, and socioeconomic and health indicators. The notebook aims to provide insights into the broader impacts of wildfire smoke on the community.
 
-For more comprehensive details regarding the datasets, including input data, intermediate files, and licensing information, please refer to the separate Datasets [README](../data/README.md).
+For more comprehensive details regarding the **datasets**, including input data, intermediate files, and licensing information, please refer to the separate Datasets [README](../data/README.md).
 
-The final project report, findings, and results can also be accessed [here](../doc/main_project_report.pdf). For a more detailed explanation of the project results, refer to [this](../doc/methodology_and_results.pdf) document.
+The final **project report**, findings, and results can also be accessed [here](../doc/main_project_report.pdf). For a more detailed explanation of the project results, refer to [this](../doc/methodology_and_results.pdf) document.
