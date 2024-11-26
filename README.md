@@ -35,13 +35,13 @@ This project is divided into multiple parts, and the details for each can be acc
 - **Part 3 (Project Presentation):** This part focuses on effectively communicating the course project findings through a [PechaKucha-style presentation](https://en.wikipedia.org/wiki/PechaKucha). The deck consists of 10 slides, each advancing automatically every 20 seconds. Here is the link to the [presentation deck](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/presentation_deck.pdf).
 - **Part 4 (Project Repository):** This part focuses on creating a fully documented repository for the course project (which is this repository!). This repository includes codes, a written report detailing all results of the assigned city (including Part 1 and your Part 2 extension), data descriptions, links to sources, and documentation for any models used. 
 
-For more comprehensive details regarding the datasets, including licensing information, please refer to the separate Datasets [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/data/README.md). 
+For more comprehensive details regarding the **datasets**, including licensing information, please refer to the separate Datasets [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/data/README.md). 
 
-Additionally, instructions on how to run the code and other setup-related information are provided in a different [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/src/README.md).
+Additionally, instructions on **how to run the code** and other setup-related information are provided in a different [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/src/README.md).
 
-The final project report, findings, and results can also be accessed [here](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/main_project_report.pdf). For a more detailed explanation on the project results, refer to [this](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/methodology_and_results.pdf) document. 
+The **final project report**, findings, and results can also be accessed [here](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/main_project_report.pdf). For a **more detailed explanation** on the project results, refer to [this](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/methodology_and_results.pdf) document. 
 
-Finally, the results are presented in the form of images. Refer to this [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/results/README.md) for more information.
+Finally, the **results** are presented in the form of images. Refer to this [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/results/README.md) for more information.
 
 ## Known Issues and Special Considerations
 - **Data Quality and Limitations:**
