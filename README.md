@@ -17,14 +17,31 @@ This project follows to the best practices for open scientific research as menti
 ## Licenses
 
 ### Datasets used
-For more information about these datasets, including licensing details, please refer to the accompanying [README.md](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/data/README.md).
+For more information about the datasets, including licensing details, please refer to the accompanying [README.md](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/data/README.md).
 
 ### Repository
 The repository is licensed under the MIT License, and it permits users to freely use, modify, and distribute the code, provided that the original copyright notice and permission notice are included in all copies or substantial portions of the software.
 
 This project includes a few snippets of code developed by Dr. David W. McDonald for use in the DATA 512 course at the University of Washington's MS in Data Science program. These snippets are shared under the [Creative Commons CC-BY license](https://creativecommons.org/). Revision 1.1 - August 16, 2024, which permits reuse and distribution with proper attribution.
 
-## Workflow
+## Workflow and File Paths
+
+The code was executed on MacBook Pro. Before running this project, ensure that the required mentioned at the top of each of the scripts are installed. Additionally, please create the necessary folders and adjust the file paths as required for your environment.
+
+This project is divided into multiple parts, and the details for each can be accessed through:
+
+- **[Part 1 (Initial data exploration, acquisition, and setup):](https://github.com/parvatijay2901/data-512-project-part1)** This part involves analyzing the impact of wildfires on Vancouver, WA, over the past 60 years, with a focus on estimating the effects of wildfire smoke on public health and air quality. The objective is to estimate the annual smoke impact based on wildfire occurrences, visualize historical wildfire trends, and build a predictive model for future smoke impacts. Key tasks include acquiring historical wildfire data, calculating the distance between fire perimeters and Vancouver, obtaining air quality index (AQI) data, and performing initial analysis. The section also involves creating visualizations to represent wildfire occurrences, acreage burned, and smoke estimates.
+- **[Part 2 (Extension Plan):](https://github.com/parvatijay2901/data-512-project-part2)** This part builds on the common analysis from Part 1 and focuses on developing a human-centered data science question to inform local governance about the impacts of smoke on the community. The goal is to explore various effects of smoke, particularly on health and economic issues in Vancouver, WA, caused by wildfires. In this repository, the extension plan is laid out to achieve this goal. The Jupyter notebook ([`src/step05_extension_plan_data_acquisition.ipynb`](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/src/step05_extension_plan_data_acquisition.ipynb)) is used for data acquisition and initial processing. Key datasets include poverty rates, premature death rates, unemployment rates, and respiratory disease mortality rates in Clark County, WA. These datasets are processed and visualized to better understand the community's vulnerability to wildfire smoke.
+- **Part 3 (Project Presentation):** This part focuses on effectively communicating the course project findings through a [PechaKucha-style presentation](https://en.wikipedia.org/wiki/PechaKucha). The deck consists of 10 slides, each advancing automatically every 20 seconds. Here is the link to the [presentation deck](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/presentation_deck.pdf).
+- **Part 4 (Project Repository):** This part focuses on creating a fully documented repository for the course project (which is this repository!). This repository includes codes, a written report detailing all results of the assigned city (including Part 1 and your Part 2 extension), data descriptions, links to sources, and documentation for any models used. 
+
+For more comprehensive details regarding the datasets, including licensing information, please refer to the separate Datasets [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/data/README.md). 
+
+Additionally, instructions on how to run the code and other setup-related information are provided in a different [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/src/README.md).
+
+The final project report, findings, and results can also be accessed [here](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/main_project_report.pdf). For a more detailed explanation on the project results, refer to [this](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/doc/methodology_and_results.pdf) document. 
+
+Finally, the results are presented in the form of images. Refer to this [README](https://github.com/parvatijay2901/data-512-project-part-3-4/blob/main/results/README.md) for more information.
 
 ## Known Issues and Special Considerations
 - **Data Quality and Limitations:**
@@ -43,7 +60,7 @@ This project includes a few snippets of code developed by Dr. David W. McDonald 
 
 ## Research Practices 
 
-The project was guided by human-centered principles that emphasized accountability, transparency, and the relevance of data to community needs. Following the best practices outlined in “The Practice of Reproducible Research,” I structured the repository with a clear hierarchical organization, creating distinct directories for [`code/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/src), [`data/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/data), [`documents/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/doc), and [`results/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/results). This setup enhanced accessibility and clarity, allowing users to easily navigate through scripts and identify dependencies clearly listed at the top of each script. I automated the workflow using Jupyter notebooks, facilitating seamless re-execution of analyses, while avoiding hard-coded paths to ensure adaptability across different environments. This README file provides explicit instructions on how to run the project and understand its objectives.
+The project was guided by human-centered principles that emphasized accountability, transparency, and the relevance of data to community needs. Following the best practices outlined in “The Practice of Reproducible Research,” I structured the repository with a clear hierarchical organization, creating distinct directories for [`src/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/src), [`data/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/data), [`doc/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/doc), and [`results/`](https://github.com/parvatijay2901/data-512-project-part-3-4/tree/main/results). This setup enhanced accessibility and clarity, allowing users to easily navigate through scripts and identify dependencies clearly listed at the top of each script. I automated the workflow using Jupyter notebooks, facilitating seamless re-execution of analyses, while avoiding hard-coded paths to ensure adaptability across different environments. This README file provides explicit instructions on how to run the project and understand its objectives.
 
 Reflecting on the application of human-centered data science principles, I prioritized the lived experiences of community members affected by environmental factors. The analysis included an assessment of the direct health consequences of smoke exposure. I explicitly considered the geographic proximity of wildfires to these communities, which highlighted areas at greater risk, particularly in neighborhoods of Vancouver, WA. Such a focus ensured that my recommendations, including the establishment of clean air shelters, were relevant and actionable, directly addressing the specific needs of those impacted.
 
